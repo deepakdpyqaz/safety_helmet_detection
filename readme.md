@@ -17,6 +17,7 @@
 - *Front-end*: Next js
 - *Back-end*: Flask
 
+
 ## Dataset Used: [Safety Helmet Detection](https://www.kaggle.com/datasets/andrewmvd/hard-hat-detection)
 
 ## Models Trained:
@@ -32,6 +33,11 @@
 ![Frame rate for yolo](readme/tiny_yolo_frame.jpeg)
 - *Accuracy*: 83.36%
 ![Accuracy for yolo](readme/tiny_yolo.png)
+- *Demo*
+
+https://user-images.githubusercontent.com/77318262/165957850-135f295e-4f92-42c2-8a0f-dd615f0d462a.mp4
+
+
 
 ## Observation and Result
 From the comparative observation, we can say that Yolov4 model is better in terms of accuracy but tiny-yolov4 is better in terms of model size and speed and only a little less in accuracy, so for deployment on web, tiny-yolo model is a better option as it will be light weight and work fast
